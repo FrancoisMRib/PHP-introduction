@@ -26,7 +26,7 @@
             $firstname = sanitize($_POST['prenom']);
 
             //Instancier l'objet user
-            $user = new ModelUser($login);
+            $user = new ModelUser();
 
             //Assignation des données aux Attributs
             $user->setName($name)->setFirstName($firstname)->setId($_SESSION['id']);

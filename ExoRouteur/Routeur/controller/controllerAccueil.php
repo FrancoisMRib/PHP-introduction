@@ -126,4 +126,6 @@ include './controller/controllerNav.php';
 include './vue/header.php'; //-> affiche la header
 include './vue/nav.php'; //-> affiche la navbar
 include './vue/vueAccueil.php'
+
+
 ?>

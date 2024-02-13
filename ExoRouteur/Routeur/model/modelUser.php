@@ -1,6 +1,7 @@
 <?php
 //MODEL : Gérer les Datas et l'Accès à la BDD
 
+//namespace
 class ModelUser{
     //Attributs
     private ?int $idUser;
